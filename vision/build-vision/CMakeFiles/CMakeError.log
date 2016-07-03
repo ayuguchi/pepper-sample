@@ -1,0 +1,371 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2305989234/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2305989234.dir/build.make CMakeFiles/cmTryCompileExec2305989234.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2305989234.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2305989234.dir/CheckSymbolExists.c.o   -c /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2305989234
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2305989234.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2305989234.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2305989234 -rdynamic 
+CMakeFiles/cmTryCompileExec2305989234.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2305989234] エラー 1
+make: *** [cmTryCompileExec2305989234/fast] エラー 2
+
+File /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec963449492/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec963449492.dir/build.make CMakeFiles/cmTryCompileExec963449492.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec963449492.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec963449492.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec963449492
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec963449492.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec963449492.dir/CheckFunctionExists.c.o  -o cmTryCompileExec963449492 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec963449492] エラー 1
+make: *** [cmTryCompileExec963449492/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2881271433/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2881271433.dir/build.make CMakeFiles/cmTryCompileExec2881271433.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2881271433.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2881271433.dir/CheckSymbolExists.c.o   -c /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2881271433
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2881271433.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2881271433.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2881271433 -rdynamic 
+CMakeFiles/cmTryCompileExec2881271433.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2881271433] エラー 1
+make: *** [cmTryCompileExec2881271433/fast] エラー 2
+
+File /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1018082709/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1018082709.dir/build.make CMakeFiles/cmTryCompileExec1018082709.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1018082709.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1018082709.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1018082709
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1018082709.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1018082709.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1018082709 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1018082709] エラー 1
+make: *** [cmTryCompileExec1018082709/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1505886659/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1505886659.dir/build.make CMakeFiles/cmTryCompileExec1505886659.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1505886659.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1505886659.dir/CheckSymbolExists.c.o   -c /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1505886659
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1505886659.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1505886659.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1505886659 -rdynamic 
+CMakeFiles/cmTryCompileExec1505886659.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec1505886659] エラー 1
+make: *** [cmTryCompileExec1505886659/fast] エラー 2
+
+File /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1525834934/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1525834934.dir/build.make CMakeFiles/cmTryCompileExec1525834934.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1525834934.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1525834934.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1525834934
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1525834934.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1525834934.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1525834934 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec1525834934] エラー 1
+make: *** [cmTryCompileExec1525834934/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1412973858/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1412973858.dir/build.make CMakeFiles/cmTryCompileExec1412973858.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1412973858.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1412973858.dir/CheckSymbolExists.c.o   -c /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1412973858
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1412973858.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1412973858.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1412973858 -rdynamic 
+CMakeFiles/cmTryCompileExec1412973858.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec1412973858] エラー 1
+make: *** [cmTryCompileExec1412973858/fast] エラー 2
+
+File /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2560126822/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2560126822.dir/build.make CMakeFiles/cmTryCompileExec2560126822.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2560126822.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2560126822.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2560126822
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2560126822.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2560126822.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2560126822 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2560126822] エラー 1
+make: *** [cmTryCompileExec2560126822/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec834610560/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec834610560.dir/build.make CMakeFiles/cmTryCompileExec834610560.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec834610560.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec834610560.dir/CheckSymbolExists.c.o   -c /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec834610560
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec834610560.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec834610560.dir/CheckSymbolExists.c.o  -o cmTryCompileExec834610560 -rdynamic 
+CMakeFiles/cmTryCompileExec834610560.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec834610560] エラー 1
+make: *** [cmTryCompileExec834610560/fast] エラー 2
+
+File /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec155948596/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec155948596.dir/build.make CMakeFiles/cmTryCompileExec155948596.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec155948596.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec155948596.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec155948596
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec155948596.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec155948596.dir/CheckFunctionExists.c.o  -o cmTryCompileExec155948596 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec155948596] エラー 1
+make: *** [cmTryCompileExec155948596/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2761170226/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2761170226.dir/build.make CMakeFiles/cmTryCompileExec2761170226.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2761170226.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2761170226.dir/CheckSymbolExists.c.o   -c /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2761170226
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2761170226.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2761170226.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2761170226 -rdynamic 
+CMakeFiles/cmTryCompileExec2761170226.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2761170226] エラー 1
+make: *** [cmTryCompileExec2761170226/fast] エラー 2
+
+File /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1484684026/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1484684026.dir/build.make CMakeFiles/cmTryCompileExec1484684026.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1484684026.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1484684026.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1484684026
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1484684026.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1484684026.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1484684026 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1484684026] エラー 1
+make: *** [cmTryCompileExec1484684026/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2370318409/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2370318409.dir/build.make CMakeFiles/cmTryCompileExec2370318409.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2370318409.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2370318409.dir/CheckSymbolExists.c.o   -c /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2370318409
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2370318409.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2370318409.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2370318409 -rdynamic 
+CMakeFiles/cmTryCompileExec2370318409.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2370318409] エラー 1
+make: *** [cmTryCompileExec2370318409/fast] エラー 2
+
+File /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2063989096/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2063989096.dir/build.make CMakeFiles/cmTryCompileExec2063989096.dir/build
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2063989096.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2063989096.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2063989096
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2063989096.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2063989096.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2063989096 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+make[1]: ディレクトリ `/home/robotics/proj/pepper_work/vision/build-vision/CMakeFiles/CMakeTmp' から出ます
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2063989096] エラー 1
+make: *** [cmTryCompileExec2063989096/fast] エラー 2
+
+
